@@ -1,0 +1,367 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #333;
+    /* background-image: url(./images\ \(1\).jpg);
+    background-size: cover; */
+    /* position: sticky;
+    top: 5px; */
+}
+header{
+    width: 100%;
+    background-color:aliceblue;
+    padding: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    position: fixed;
+    
+    /* position:sticky;
+    top: 1px; */
+}
+header li{
+    display:inline;
+    padding-right: 45px;
+}
+header li a{
+    color:#333;
+    text-decoration: none;
+    
+
+}
+header li a:hover{
+    color:#4caf50;
+}
+.content{
+    background-color: #333;
+    /* top: 35%; */
+    height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   
+   /* background-color:whitesmoke; */
+   /* background-size: cover; */
+}
+.content h1{
+    font-style: italic;
+    color:#fff;
+    font-size: 70px;
+    margin-top: 13%;
+    /* margin: 10px auto; */
+ 
+}
+.content p{
+    color:#fff;
+    margin: 5px auto;
+    font-style: italic;
+  
+}
+.content button{
+    font-style: italic;
+    width: 150px;
+    padding: 8px 10px;
+    margin: 20px;
+    border-radius: 5px;
+    border:2px solid #4caf50;
+    /* background: transparent ; */
+    
+    
+}
+/* .content button:hover{
+    background-color:antiquewhite;
+} */
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+} */
+
+.con {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+   
+}
+.name{
+    text-align: center;
+    padding: 10px;
+}
+h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.about-content {
+    flex: 2;
+    background-color:#fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    
+    
+    
+}
+
+.about-content h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#4caf50;
+    border-bottom: 2px solid #666;
+    padding-bottom: 10px;
+}
+
+.about-content p {
+    color:#333;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+} */
+
+#skills {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:#fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#skills h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.progress {
+    background-color:aliceblue;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.progress-bar {
+    height: 24px;
+    line-height: 24px;
+    background-color: #4caf50;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+}
+
+
+/* .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+} */
+
+h1 {
+    text-align: center;
+    margin-top: 25px;
+    font-style: italic;
+}
+
+.education {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin-top: 20px;
+}
+
+.education-item {
+    background-color:#fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+.education-item h2 {
+    color:#4caf50;
+    border-bottom: 2px solid #666;
+    padding-bottom: 10px;
+}
+
+.education-item p {
+    color:black;
+    line-height: 1.6;
+}
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+} */
+
+.contai {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.work-item {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.work-logo {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.work-item h2 {
+    color:#4caf50;
+    border-bottom: 2px solid #666;
+    padding-bottom: 10px;
+}
+
+.work-item p {
+    color: #333;
+    line-height: 1.6;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.contact-info {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    width: 45%;
+}
+
+.contact-form {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    width: 45%;
+}
+
+.contact-info h2, .contact-form h2 {
+    color:#4caf50;
+    border-bottom: 2px solid #666;
+    padding-bottom: 10px;
+}
+
+.contact-info p {
+    color: #333;
+    line-height: 1.6;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
