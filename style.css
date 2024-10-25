@@ -92,9 +92,9 @@ h1 {
 }
 
 .about-image {
-    flex: 1;
-    text-align: center;
-    margin: 10px;
+        flex: 1;
+        text-align: center;
+        margin: 10px;
 }
 
 .about-image img {
